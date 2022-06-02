@@ -13,6 +13,8 @@ import com.hexa.example.orders.domain.entities.Order;
 import com.hexa.example.orders.domain.entities.OrderDetails;
 import com.hexa.example.orders.domain.exceptions.MinimumAcceptedAmountNotFulfilledException;
 import com.hexa.example.orders.domain.ports.in.PlaceOrder;
+import com.hexa.example.orders.infra.in.web.OrderDTO;
+import com.hexa.example.orders.infra.in.web.OrdersRestAdapter;
 import java.util.UUID;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
