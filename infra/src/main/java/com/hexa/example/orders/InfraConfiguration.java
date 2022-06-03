@@ -1,4 +1,4 @@
-package com.hexa.example.orders.configuration;
+package com.hexa.example.orders;
 
 import com.hexa.example.orders.domain.ports.out.Orders;
 import com.hexa.example.orders.infra.out.repositories.OrdersDatabaseAdapter;

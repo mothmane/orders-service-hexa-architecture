@@ -1,6 +1,6 @@
-package com.hexa.example.orders.configuration;
+package com.hexa.example.orders;
 
-import com.hexa.example.orders.domain.ports.in.PlaceOrder;
+import com.hexa.example.orders.domain.ports.in.PlaceOrderUseC;
 import com.hexa.example.orders.domain.ports.out.Orders;
 import com.hexa.example.orders.domain.ports.out.OrdersSettings;
 import com.hexa.example.orders.domain.usecases.PlaceOrderUseCase;

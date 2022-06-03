@@ -14,11 +14,13 @@
 
     <modules>
         <module>domain</module>
+        <module>domain-cdi</module>
         <module>infra</module>
+
     </modules>
 
     <groupId>com.hexa.example</groupId>
-    <artifactId>com.hexa.example.orders.infra.orders</artifactId>
+    <artifactId>orders-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>orders-service</name>
     <description>Demo Hexagonal Architecture with Spring Boot</description>
